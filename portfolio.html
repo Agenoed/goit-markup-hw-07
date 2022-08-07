@@ -20,31 +20,31 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/portfolio.min.css" />
   </head>
   <body>
     <!-- Header -->
     <header class="header">
-      <div class="container header__container">
-        <a href="./index.html" class="logo header__logo link"
+      <div class="header__container">
+        <a href="./index.html" class="logo header__logo"
           ><span class="logo logo--accent-clr">Web</span>Studio</a
         >
         <nav class="header-nav">
-          <ul class="header-nav__list list">
+          <ul class="header-nav__list">
             <li class="header-nav__item">
-              <a href="./index.html" class="header-nav__link link">Студія</a>
+              <a href="./index.html" class="header-nav__link">Студія</a>
             </li>
             <li class="header-nav__item">
-              <a href="./portfolio.html" class="header-nav__link link header-nav__link--current"
+              <a href="./portfolio.html" class="header-nav__link header-nav__link--current"
                 >Портфоліо</a
               >
             </li>
-            <li class="header-nav__item"><a href="" class="header-nav__link link">Контакти</a></li>
+            <li class="header-nav__item"><a href="" class="header-nav__link">Контакти</a></li>
           </ul>
         </nav>
-        <ul class="header-contact__list list">
+        <ul class="header-contact__list">
           <li class="header-contact__item">
-            <a href="mailto:info@devstudio.com" class="header-contact__link link">
+            <a href="mailto:info@devstudio.com" class="header-contact__link">
               <svg class="header-contact__icon" width="16" height="12">
                 <use href="./images/icons.svg#icon-envelope"></use>
               </svg>
@@ -52,7 +52,7 @@
             >
           </li>
           <li class="header-contact__item">
-            <a href="tel:+380961111111" class="header-contact__link link">
+            <a href="tel:+380961111111" class="header-contact__link">
               <svg class="header-contact__icon" width="10" height="16">
                 <use href="./images/icons.svg#icon-smartphone"></use>
               </svg>
@@ -64,10 +64,10 @@
     </header>
     <!-- Main -->
     <main>
-      <section class="portfolio section">
-        <div class="container">
+      <section class="portfolio">
+        <div class="portfolio__container">
           <h1 class="visually-hidden">Портфоліо</h1>
-          <ul class="portfolio__list list">
+          <ul class="portfolio__list">
             <li class="portfolio__item">
               <button type="button" class="portfolio__btn">Все</button>
             </li>
@@ -84,9 +84,9 @@
               <button type="button" class="portfolio__btn">Маркетинг</button>
             </li>
           </ul>
-          <ul class="work__list card-set list">
+          <ul class="work__list card-set">
             <li class="work__item card-set__item">
-              <a href="" class="work__link link">
+              <a href="" class="work__link">
                 <img
                   src="./images/portfolio/portfolio-img-1.jpg"
                   alt="Веб-сайт открыт в ноутбуке"
@@ -107,7 +107,7 @@
               </a>
             </li>
             <li class="work__item card-set__item">
-              <a href="" class="work__link link">
+              <a href="" class="work__link">
                 <img
                   src="./images/portfolio/portfolio-img-2.jpg"
                   alt="Два баскетболиста"
@@ -128,7 +128,7 @@
               </a>
             </li>
             <li class="work__item card-set__item">
-              <a href="" class="work__link link">
+              <a href="" class="work__link">
                 <img
                   src="./images/portfolio/portfolio-img-3.jpg"
                   alt="Логотип ресторана"
@@ -149,7 +149,7 @@
               </a>
             </li>
             <li class="work__item card-set__item">
-              <a href="" class="work__link link">
+              <a href="" class="work__link">
                 <img
                   src="./images/portfolio/portfolio-img-4.jpg"
                   alt="Наушники"
@@ -170,7 +170,7 @@
               </a>
             </li>
             <li class="work__item card-set__item">
-              <a href="" class="work__link link">
+              <a href="" class="work__link">
                 <img
                   src="./images/portfolio/portfolio-img-5.jpg"
                   alt="Две коробки"
@@ -191,7 +191,7 @@
               </a>
             </li>
             <li class="work__item card-set__item">
-              <a href="" class="work__link link">
+              <a href="" class="work__link">
                 <img
                   src="./images/portfolio/portfolio-img-6.jpg"
                   alt="Веб-сайт на мониторе компьютера"
@@ -212,7 +212,7 @@
               </a>
             </li>
             <li class="work__item card-set__item">
-              <a href="" class="work__link link">
+              <a href="" class="work__link">
                 <img
                   src="./images/portfolio/portfolio-img-7.jpg"
                   alt="Открытая книга"
@@ -233,7 +233,7 @@
               </a>
             </li>
             <li class="work__item card-set__item">
-              <a href="" class="work__link link">
+              <a href="" class="work__link">
                 <img
                   src="./images/portfolio/portfolio-img-8.jpg"
                   alt="Бирка с логотипом"
@@ -254,7 +254,7 @@
               </a>
             </li>
             <li class="work__item card-set__item">
-              <a href="" class="work__link link">
+              <a href="" class="work__link">
                 <img
                   src="./images/portfolio/portfolio-img-9.jpg"
                   width="370"
@@ -282,37 +282,35 @@
     <footer class="footer">
       <div class="footer__container container">
         <div class="footer__item">
-          <a href="./index.html" class="footer__logo logo logo--light-txt link"
+          <a href="./index.html" class="footer__logo logo logo--light-txt"
             ><span class="logo logo--accent-clr">Web</span>Studio</a
           >
           <address class="address">
-            <ul class="address__list list">
+            <ul class="address__list">
               <li class="address__item">
                 <a
                   href="https://goo.gl/maps/L4N7FVB9bXjK6bW5A"
                   target="_blank"
                   rel="noopener noreferrer"
-                  class="address__link address__link--white-txt link"
+                  class="address__link address__link--white-txt"
                   >м. Київ, пр-т Лесі Українки, 26</a
                 >
               </li>
               <li class="address__item">
-                <a href="mailto:info@devstudio.com" class="address__link link"
-                  >info@devstudio.com</a
-                >
+                <a href="mailto:info@devstudio.com" class="address__link">info@devstudio.com</a>
               </li>
               <li class="address__item">
-                <a href="tel:+380961111111" class="address__link link">+38 096 111 11 11</a>
+                <a href="tel:+380961111111" class="address__link">+38 096 111 11 11</a>
               </li>
             </ul>
           </address>
         </div>
         <div class="footer__social">
           <h2 class="footer__subtitle subtitle subtitle--light-txt">приєднуйтесь</h2>
-          <ul class="social__list list">
+          <ul class="social__list">
             <li class="social__item">
               <a
-                class="social__link social__link--dark-bg link"
+                class="social__link social__link--dark-bg"
                 href="https://www.instagram.com/"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -325,7 +323,7 @@
             </li>
             <li class="social__item">
               <a
-                class="social__link social__link--dark-bg link"
+                class="social__link social__link--dark-bg"
                 href="https://twitter.com/"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -338,7 +336,7 @@
             </li>
             <li class="social__item">
               <a
-                class="social__link social__link--dark-bg link"
+                class="social__link social__link--dark-bg"
                 href="https://www.facebook.com/"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -351,11 +349,11 @@
             </li>
             <li class="social__item">
               <a
-                class="social__link social__link--dark-bg link"
+                class="social__link social__link--dark-bg"
                 href="https://www.linkedin.com/"
                 target="_blank"
                 rel="noopener noreferrer"
-                aria-label="Иконка linkedin"
+                aria-label="Иконкаedin"
               >
                 <svg width="20" height="20">
                   <use href="./images/icons.svg#icon-linkedin"></use>
