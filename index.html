@@ -28,7 +28,7 @@
     <header class="header">
       <div class="container header__container">
         <a href="./index.html" class="logo header__logo link"
-          ><span class="header__logo--color">Web</span>Studio</a
+          ><span class="logo logo--accent-clr">Web</span>Studio</a
         >
         <nav class="header-nav">
           <ul class="header-nav__list list">
@@ -87,7 +87,7 @@
                 </svg>
               </div>
               <h3 class="subtitle feature__subtitle">Увага до деталей</h3>
-              <p class="feature__txt">
+              <p class="txt">
                 Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.
               </p>
             </li>
@@ -98,7 +98,7 @@
                 </svg>
               </div>
               <h3 class="subtitle feature__subtitle">Пунктуальність</h3>
-              <p class="feature__txt">
+              <p class="txt">
                 Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.
               </p>
             </li>
@@ -109,9 +109,7 @@
                 </svg>
               </div>
               <h3 class="subtitle feature__subtitle">Планування</h3>
-              <p class="feature__txt">
-                Так само консультація з широким активом значною мірою зумовлює.
-              </p>
+              <p class="txt">Так само консультація з широким активом значною мірою зумовлює.</p>
             </li>
             <li class="feature__item card-set__item">
               <div class="feature__box-icon">
@@ -120,7 +118,7 @@
                 </svg>
               </div>
               <h3 class="subtitle feature__subtitle">Сучасні технології</h3>
-              <p class="feature__txt">
+              <p class="txt">
                 Значимість цих проблем настільки очевидна, що реалізація планових завдань.
               </p>
             </li>
@@ -188,7 +186,7 @@
               />
               <div class="team__content">
                 <h3 class="team__subtitle subtitle">Игорь Демьяненко</h3>
-                <p lang="en" class="team__txt">Product Designer</p>
+                <p lang="en" class="team__txt txt">Product Designer</p>
                 <ul class="social__list list">
                   <li class="social__item">
                     <a
@@ -254,7 +252,7 @@
               />
               <div class="team__content">
                 <h3 class="team__subtitle subtitle">Ольга Репина</h3>
-                <p lang="en" class="team__txt">Frontend Developer</p>
+                <p lang="en" class="team__txt txt">Frontend Developer</p>
                 <ul class="social__list list">
                   <li class="social__item">
                     <a
@@ -320,7 +318,7 @@
               />
               <div class="team__content">
                 <h3 class="team__subtitle subtitle">Николай Тарасов</h3>
-                <p lang="en" class="team__txt">Marketing</p>
+                <p lang="en" class="team__txt txt">Marketing</p>
                 <ul class="social__list list">
                   <li class="social__item">
                     <a
@@ -386,7 +384,7 @@
               />
               <div class="team__content">
                 <h3 class="team__subtitle subtitle">Михаил Ермаков</h3>
-                <p lang="en" class="team__txt">UI Designer</p>
+                <p lang="en" class="team__txt txt">UI Designer</p>
                 <ul class="social__list list">
                   <li class="social__item">
                     <a
@@ -501,17 +499,17 @@
     <footer class="footer">
       <div class="footer__container container">
         <div class="footer__item">
-          <a href="./index.html" class="logo-light logo link"
-            ><span class="footer__logo--color">Web</span>Studio</a
+          <a href="./index.html" class="footer__logo logo logo--light-txt link"
+            ><span class="logo logo--accent-clr">Web</span>Studio</a
           >
           <address class="address">
             <ul class="address__list list">
-              <li class="address__item street">
+              <li class="address__item">
                 <a
                   href="https://goo.gl/maps/L4N7FVB9bXjK6bW5A"
                   target="_blank"
                   rel="noopener noreferrer"
-                  class="address__link link"
+                  class="address__link address__link--white-txt link"
                   >м. Київ, пр-т Лесі Українки, 26</a
                 >
               </li>
@@ -526,12 +524,12 @@
             </ul>
           </address>
         </div>
-        <div class="footer-social">
-          <h2 class="footer-social-title">приєднуйтесь</h2>
-          <ul class="footer-social__list list">
+        <div class="footer__social">
+          <h2 class="footer__subtitle subtitle subtitle--light-txt">приєднуйтесь</h2>
+          <ul class="social__list list">
             <li class="social__item">
               <a
-                class="social__link link"
+                class="social__link social__link--dark-bg link"
                 href="https://www.instagram.com/"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -544,7 +542,7 @@
             </li>
             <li class="social__item">
               <a
-                class="social__link link"
+                class="social__link social__link--dark-bg link"
                 href="https://twitter.com/"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -557,7 +555,7 @@
             </li>
             <li class="social__item">
               <a
-                class="social__link link"
+                class="social__link social__link--dark-bg link"
                 href="https://www.facebook.com/"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -570,7 +568,7 @@
             </li>
             <li class="social__item">
               <a
-                class="social__link link"
+                class="social__link social__link--dark-bg link"
                 href="https://www.linkedin.com/"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -583,19 +581,16 @@
             </li>
           </ul>
         </div>
-        <form name="distribution_form" autocomplete="off" class="footer-distribution">
+        <form name="distribution_form" autocomplete="off" class="distribution">
           <label>
-            <strong class="footer-distribution-title">Підпишіться на розсилку</strong>
-            <input
-              type="email"
-              name="email"
-              placeholder="E-mail"
-              class="footer-distribution-input"
-            />
+            <strong class="distribution__subtitle subtitle subtitle--light-txt"
+              >Підпишіться на розсилку</strong
+            >
+            <input type="email" name="email" placeholder="E-mail" class="distribution__input" />
           </label>
-          <button type="submit" class="footer-distribution-btn btn">
+          <button type="submit" class="distribution__btn btn">
             Підписатися
-            <svg class="footer-distribution-icon" width="24" height="24">
+            <svg class="distribution__icon" width="24" height="24">
               <use href="./images/icons.svg#icon-send"></use>
             </svg>
           </button>
@@ -606,57 +601,61 @@
     <!-- Modal window -->
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
-        <button class="modal-btn" type="button" data-modal-close>
-          <svg class="modal-btn-icon" width="11" height="11">
+        <button class="modal__btn" type="button" data-modal-close>
+          <svg class="modal__close-icon" width="11" height="11">
             <use href="./images/icons.svg#icon-cross"></use>
           </svg>
         </button>
         <form class="register-form">
-          <strong class="register-form-title">Залиште свої дані, ми вам передзвонимо</strong>
-          <div class="register-form-group" role="group">
-            <label class="register-form-wrap">
-              <span class="register-form-label">Ім'я</span>
-              <input class="register-form-input" type="text" name="user-name" />
-              <svg class="register-form-icon" width="18" height="18">
+          <strong class="register-form__title title">Залиште свої дані, ми вам передзвонимо</strong>
+          <div class="register-form__group" role="group">
+            <label class="register-form__wrap">
+              <span class="register-form__label">Ім'я</span>
+              <input class="register-form__input" type="text" name="user-name" />
+              <svg class="register-form__icon" width="18" height="18">
                 <use href="./images/icons.svg#icon-person"></use>
               </svg>
             </label>
-            <label class="register-form-wrap">
-              <span class="register-form-label">Телефон</span>
-              <input class="register-form-input" type="tel" name="telephone" />
-              <svg class="register-form-icon" width="18" height="18">
+            <label class="register-form__wrap">
+              <span class="register-form__label">Телефон</span>
+              <input class="register-form__input" type="tel" name="telephone" />
+              <svg class="register-form__icon" width="18" height="18">
                 <use href="./images/icons.svg#icon-phone"></use>
               </svg>
             </label>
-            <label class="register-form-wrap">
-              <span class="register-form-label">Пошта</span>
-              <input class="register-form-input" type="email" name="email" />
-              <svg class="register-form-icon" width="18" height="18">
+            <label class="register-form__wrap">
+              <span class="register-form__label">Пошта</span>
+              <input class="register-form__input" type="email" name="email" />
+              <svg class="register-form__icon" width="18" height="18">
                 <use href="./images/icons.svg#icon-email"></use>
               </svg>
             </label>
-            <label class="register-form-wrap">
-              <span class="register-form-label">Коментар</span>
+            <label class="register-form__wrap">
+              <span class="register-form__label">Коментар</span>
               <textarea
-                class="register-form-message"
+                class="register-form__message"
                 name="comment"
                 rows="5"
                 placeholder="Введіть текст"
               ></textarea>
             </label>
           </div>
-          <label class="register-form-agreement">
-            <input class="register-checkbox visually-hidden" type="checkbox" name="agreement" />
-            <svg class="register-icon" width="16" height="15">
-              <use class="register-icon-uncheck" href="./images/icons.svg#icon-uncheck"></use>
-              <use class="register-icon-check" href="./images/icons.svg#icon-check"></use>
+          <label class="register-form__agreement">
+            <input
+              class="register-form__checkbox visually-hidden"
+              type="checkbox"
+              name="agreement"
+            />
+            <svg class="register-form__icon-audit" width="16" height="15">
+              <use class="register-form__uncheck" href="./images/icons.svg#icon-uncheck"></use>
+              <use class="register-form__check" href="./images/icons.svg#icon-check"></use>
             </svg>
-            <span class="register-form-agreement-text">
+            <span class="register-form__txt txt">
               Погоджуюся з розсилкою та приймаю
-              <a class="register-form-agreement-link" href="">Умови договору</a>
+              <a class="register-form__link" href="">Умови договору</a>
             </span>
           </label>
-          <button class="register-form-btn" type="submit">Відправити</button>
+          <button class="register-form__btn btn" type="submit">Відправити</button>
         </form>
       </div>
     </div>
